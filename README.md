@@ -83,8 +83,6 @@ Problems that arose after exploring the data, and how we resolved them:
 
 # Data Visualizations:
 
-
-
 ### Changes in Median Income
 
 ![](/output_files/median_income.png)
