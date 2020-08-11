@@ -158,7 +158,8 @@ Crime Data by Walk Score
 - While all zip codes but one showed increases in population, zip code areas with higher walk scores show a slight tendency to grow slower.
 
 - Higher walk scores show a moderate negative correlation with population changes in the Portland African American community. 
-- Neighborhoods with higher walk scores are more likely to show a loss of Black residents over the 2012-2018 period.
+
+- Neighborhoods with higher walk scores are more likely to show a loss of Black residents as a share of all residents over the 2012-2018 period.
 
 # Post Mortem
 
@@ -169,13 +170,3 @@ Crime Data by Walk Score
 - Find elusive health metrics and expensive foot traffic data
 - Add heat map of Black population ratio change
 - Integrate crime data analysis into the project more
-
-# In conclusion:
-
-### In Portland Neighborhoods from 2012-2018...
-
-Higher walk score neighborhoods got richer quicker.
-
-Higher walk score neighborhoods showed no discernable difference in population change overall.
-
-Ratios of Black populations in higher walk score neighborhoods dropped significantly.
