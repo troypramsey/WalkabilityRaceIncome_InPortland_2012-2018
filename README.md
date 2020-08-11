@@ -22,7 +22,7 @@ A walk score real estate industry metric created by WalkScore used to evaluate r
 
 ### Higher walk scores correlate to higher increases in median income.
 ### Higher walk scores correlate to higher increases in population.
-### Mobility in and out of high walk score neighborhoods differs across racial groups
+### Mobility in and out of high walk score neighborhoods differs across racial groups.
 
 # Summary of findings:
 
@@ -45,7 +45,7 @@ A walk score real estate industry metric created by WalkScore used to evaluate r
 
 # Data Cleanup & Exploration
 
-### Data Sources
+### Data Sourcing
 
 - Extracted walk score data for each Portland neighborhood from Walkscore
 https://www.walkscore.com/OR/Portland
@@ -139,11 +139,15 @@ Crime Data by Walk Score
 
 # Statistical Analysis:
 
+## High Level Findings:
+
 ### Higher walk scores strongly correlate (r=.52) with greater increases in median income in Portland between 2012 and 2018.
 
-### Walk scores show little correlation with overall population change (r=.17)
+### Walk scores show little correlation with overall population change (r=-.17)
 
-### Higher walk scores show moderate correlation (r=-.29) with African American population changes
+### Higher walk scores show moderate correlation (r=-.29) with African American population changes and moderate-strong negative correlation with change in ratio of Black residents to the general population (r=-.4)
+
+## Detailed Findings:
 
 -  Zip codes in the Portland area with higher walk scores have trended towards seeing greater increases in median income in the period between 2012-2018. 
 
@@ -153,7 +157,7 @@ Crime Data by Walk Score
 
 - While all zip codes but one showed increases in population, zip code areas with higher walk scores show a slight tendency to grow slower.
 
-- Higher walk scores show a moderate negative correlation with population changes in the Portland African American community. 
+- Higher walk scores show a moderate negative correlation with population changes in the Portland Black community. 
 
 - Neighborhoods with higher walk scores are more likely to show a loss of Black residents as a share of all residents over the 2012-2018 period.
 
