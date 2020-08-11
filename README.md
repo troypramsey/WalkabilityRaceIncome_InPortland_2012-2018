@@ -7,13 +7,11 @@
 
 # Motivation & Summary:
 
-### Our project is to look at walkability scores across Portland Neighborhoods and compare them to demographic and economic mobility factors from 2012 - 2018.
+Our project is to look at walkability scores across Portland Neighborhoods and compare them to demographic and economic mobility factors from 2012 - 2018. Originally, we wanted to compare walkscores of neighborhoods with actual pedestrian foot traffic. Real foot traffic data is expensive. Instead, we decided to look at demographic and economic changes in neighborhoods, based on their walk scores:
 
-### Originally, we wanted to compare walkscores of neighborhoods with actual pedestrian foot traffic. Real foot traffic data is expensive. Instead, we decided to look at demographic and economic changes in neighborhoods, based on their walk scores:
-
-Do higher walk scores correlate to higher increases in median income?
-Do higher walk scores correlate to greater population change?
-Do population changes vary across race by walk score?
+- Do higher walk scores correlate to higher increases in median income?
+- Do higher walk scores correlate to greater population change?
+- Do population changes vary across race by walk score?
 
 
 ### What is a Walk Score? 
@@ -22,9 +20,9 @@ A walk score real estate industry metric created by WalkScore used to evaluate r
 
 # Hypotheses:
 
-Higher walk scores correlate to higher increases in median income.
-Higher walk scores correlate to higher increases in population.
-Mobility in and out of high walk score neighborhoods differs across racial groups
+### Higher walk scores correlate to higher increases in median income.
+### Higher walk scores correlate to higher increases in population.
+### Mobility in and out of high walk score neighborhoods differs across racial groups
 
 # Summary of findings:
 
@@ -87,7 +85,7 @@ Problems that arose after exploring the data, and how we resolved them:
 
 ### Changes in Median Income
 
-![](Scatterplot Output/median_income.png)
+![](/Scatterplot Output/median_income.png)
 Zip codes with higher walk scores show a strong positive correlation with faster median income growth (r=0.52).
 
 ![](Scatterplot Output/median_income_boxplot.png)
@@ -98,21 +96,21 @@ Zip codes with higher walk scores still show a moderate positive correlation wit
 
 ### Population Change by Walk Score
 
-![](Scatterplot Output/general_pop.png)
+![](/Scatterplot Output/general_pop.png)
 
-![](Scatterplot Output/bipoc_pop.png)
+![](/Scatterplot Output/bipoc_pop.png)
 
 There is little correlation between walk score and general population change (r=-0.19) or aggregate BIPOC population change (r=-0.14).
 
 ### Change of Ratio of Black Residents by Walk Score
 
-![](Scatterplot Output/black_pop.png)
+![](/Scatterplot Output/black_pop.png)
 
 Zip codes with higher walk scores showed a moderate negative correlation with changes in Black community population (r=-.029) and a strong negative correlation (r=-0.4) with the decrease in the ratio of Black residents to all residents.
 
-![](Scatterplot Output/black_pop_ratio_stacked.png)
+![](/Scatterplot Output/black_pop_ratio_stacked.png)
 
-![](Scatterplot Output/black_pop_ratio.png)
+![](/Scatterplot Output/black_pop_ratio.png)
 
 
 
