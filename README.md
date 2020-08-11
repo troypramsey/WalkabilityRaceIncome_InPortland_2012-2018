@@ -39,10 +39,10 @@ Mobility in and out of high walk score neighborhoods differs across racial group
 - Latitude/Longitude by Neighborhood (Portland OpenData Arc-GIS “Neighborhoods_Regions” dataset)
 - Neighborhood Zip Codes (Google Maps Geocode API) 
 - US Census API
-- Change in Median Income (2012-2018)
-- Change in Total Population (2012-2018)
-- Change in BIPOC Population (2012-2018)
-- Change in Black Population (2012-2018)
+    - Change in Median Income (2012-2018)
+    - Change in Total Population (2012-2018)
+    - Change in BIPOC Population (2012-2018)
+    - Change in Black Population (2012-2018)
 
 
 # Data Cleanup & Exploration
@@ -85,37 +85,34 @@ Problems that arose after exploring the data, and how we resolved them:
 
 
 
-Changes in Median Income
+### Changes in Median Income
 
-
+![](Scatterplot Output/median_income.png)
 Zip codes with higher walk scores show a strong positive correlation with faster median income growth (r=0.52).
 
+![](Scatterplot Output/median_income_boxplot.png)
 
+![](Scatterplot Output/median_income_no_outliers.png)
 
 Zip codes with higher walk scores still show a moderate positive correlation with faster median income growth adjusted for income outliers (r=0.37).
 
+### Population Change by Walk Score
 
+![](Scatterplot Output/general_pop.png)
 
-
-
-
-
-Population Change by Walk Score
-Scatter plots with linear regressions
+![](Scatterplot Output/bipoc_pop.png)
 
 There is little correlation between walk score and general population change (r=-0.19) or aggregate BIPOC population change (r=-0.14).
 
+### Change of Ratio of Black Residents by Walk Score
 
-
-
-
-Change of Ratio of Black Residents by Walk Score
-
-
+![](Scatterplot Output/black_pop.png)
 
 Zip codes with higher walk scores showed a moderate negative correlation with changes in Black community population (r=-.029) and a strong negative correlation (r=-0.4) with the decrease in the ratio of Black residents to all residents.
 
+![](Scatterplot Output/black_pop_ratio_stacked.png)
 
+![](Scatterplot Output/black_pop_ratio.png)
 
 
 
