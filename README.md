@@ -85,7 +85,7 @@ Problems that arose after exploring the data, and how we resolved them:
 
 ### Changes in Median Income
 
-![](/Scatterplot Output/median_income.png)
+![](/"Scatterplot Output"/median_income.png)
 Zip codes with higher walk scores show a strong positive correlation with faster median income growth (r=0.52).
 
 ![](Scatterplot Output/median_income_boxplot.png)
@@ -141,12 +141,11 @@ Crime Data by Walk Score
 
 # Statistical Analysis:
 
-# Higher walk scores strongly correlate (r=.52) with greater increases in median income in Portland between 2012 and 2018.
+### Higher walk scores strongly correlate (r=.52) with greater increases in median income in Portland between 2012 and 2018.
 
-# Walk scores show little correlation with overall population change (r=.17)
+### Walk scores show little correlation with overall population change (r=.17)
 
-
-# Higher walk scores show moderate correlation (r=-.29) with African American population changes
+### Higher walk scores show moderate correlation (r=-.29) with African American population changes
 
 -  Zip codes in the Portland area with higher walk scores have trended towards seeing greater increases in median income in the period between 2012-2018. 
 
