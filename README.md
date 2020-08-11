@@ -116,12 +116,11 @@ Zip codes with higher walk scores showed a moderate negative correlation with ch
 
 Average Walk Score By Zipcode
 
+![](/output_files/gen_map.png)
+
 Walk Score = Red
 
-
-
-
-
+![](/output_files/income_map.png)
 
 Walk Score and Median Income Growth by Zipcode
 
