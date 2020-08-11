@@ -130,7 +130,13 @@ Income Growth = Blue
 
 
 
-Crime Data by Walk Score
+# Crime Data by Walk Score
+
+Zip codes with higher walk scores showed a moderate positive correlation with increases in overall crime (r=0.31) against population and a moderate positive correlation with an increase in overall crime (r=0.3) against median income.
+
+![](/output_files/crime_pop.png)
+
+![](/output_files/crime_income.png)
 
 
 
