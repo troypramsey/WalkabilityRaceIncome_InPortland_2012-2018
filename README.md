@@ -110,13 +110,9 @@ There is little correlation between walk score and general population change (r=
 
 Zip codes with higher walk scores showed a moderate negative correlation with changes in Black community population (r=-.029) and a strong negative correlation (r=-0.4) with the decrease in the ratio of Black residents to all residents.
 
+![](/output_files/black_ratio.png)
+
 ![](/output_files/black_pop_ratio_stacked.png)
-
-![](/output_files/black_pop_ratio.png)
-
-
-
-
 
 Average Walk Score By Zipcode
 
