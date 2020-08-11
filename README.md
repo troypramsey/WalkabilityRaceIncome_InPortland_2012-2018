@@ -45,6 +45,8 @@ A walk score real estate industry metric created by WalkScore used to evaluate r
 
 # Data Cleanup & Exploration
 
+### Data Sources
+
 - Extracted walk score data for each Portland neighborhood from Walkscore
 https://www.walkscore.com/OR/Portland
 - Used Portland OpenData Arc-GIS data to populate latitude and longitude values for each neighborhood
@@ -85,32 +87,32 @@ Problems that arose after exploring the data, and how we resolved them:
 
 ### Changes in Median Income
 
-![](/"Scatterplot Output"/median_income.png)
+![](/output_files/median_income.png)
 Zip codes with higher walk scores show a strong positive correlation with faster median income growth (r=0.52).
 
-![](Scatterplot Output/median_income_boxplot.png)
+![](/output_files/median_income_boxplot.png)
 
-![](Scatterplot Output/median_income_no_outliers.png)
+![](/output_files/median_income_no_outliers.png)
 
 Zip codes with higher walk scores still show a moderate positive correlation with faster median income growth adjusted for income outliers (r=0.37).
 
 ### Population Change by Walk Score
 
-![](/Scatterplot Output/general_pop.png)
+![](/output_files/general_pop.png)
 
-![](/Scatterplot Output/bipoc_pop.png)
+![](/output_files/bipoc_pop.png)
 
 There is little correlation between walk score and general population change (r=-0.19) or aggregate BIPOC population change (r=-0.14).
 
 ### Change of Ratio of Black Residents by Walk Score
 
-![](/Scatterplot Output/black_pop.png)
+![](/output_files/black_pop.png)
 
 Zip codes with higher walk scores showed a moderate negative correlation with changes in Black community population (r=-.029) and a strong negative correlation (r=-0.4) with the decrease in the ratio of Black residents to all residents.
 
-![](/Scatterplot Output/black_pop_ratio_stacked.png)
+![](/output_files/black_pop_ratio_stacked.png)
 
-![](/Scatterplot Output/black_pop_ratio.png)
+![](/output_files/black_pop_ratio.png)
 
 
 
